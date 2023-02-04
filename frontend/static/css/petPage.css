@@ -1,0 +1,56 @@
+
+#pet--page {
+  display: grid;
+  padding-top: 80px;
+}
+#picture--div {
+  height: 350px;
+  background-color: rgb(98, 98, 98);
+}
+#pet--info--box {
+  position: relative;
+}
+#division {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+#more--section {
+  background-color: var(--tertiary);
+}
+#more--section--div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.line--break {
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: var(--primary);
+}
+@media only screen and (max-width: 600px) {
+  #pet--info--box {
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #pet--info--box {
+    width: 480px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #pet--info--box {
+    width: 550px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #pet--info--box {
+    width: 630px;
+  }
+}

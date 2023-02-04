@@ -1,0 +1,33 @@
+
+#puppies--and--dogs{
+    display: grid;
+    padding-top: 60px;
+}
+#background--picture{
+    height: 200px;
+    background: url("../images/background4.jpg") center center/cover no-repeat;
+}
+#drop--down--div{
+    max-width: 200px;
+    justify-self: right;
+    margin: 50px 100px 50px 50px;
+}
+#enabled--filters{
+    width: 200px;
+    min-height: 50px;
+    justify-self: left;
+    margin-left: 25px;
+}
+.line--break{
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: var(--primary);
+}
+#main--section > div.MuiGrid-root.MuiGrid-container.css-iq4gde-MuiGrid-root{
+    padding-top: 25px;
+}
+.line--break--vertical{
+    border-right: 2px;
+    border-style: solid;
+    border-color: var(--primary);
+}

@@ -1,0 +1,48 @@
+:root {
+  --primary: burlywood;
+  --secondary: blue;
+  --tertiary: rgb(29 20 7);
+}
+body {
+  background-color: black;
+  color: #ffffff;
+}
+#app > header > div {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+body
+  > div.MuiDrawer-root.MuiDrawer-modal.MuiModal-root.css-1u2w381-MuiModal-root-MuiDrawer-root
+  > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation16.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+  background-color: var(--secondary);
+  color: #ffffff;
+}
+#app > header > div > div > div > span {
+  background-color: var(--secondary);
+}
+.dog--icon {
+  width: 65px;
+  height: 65px;
+  padding: 0;
+  margin-left: auto;
+  margin-top: auto;
+}
+#login--main {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  top: 75px;
+  left: 0;
+}
+#signup--login--btn{
+  color: var(--secondary);
+  cursor: pointer;
+
+}
+#signup--login{
+  display: inline-flex;
+}

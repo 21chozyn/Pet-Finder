@@ -1,0 +1,27 @@
+
+.hero--section--div{
+    background: url("../images/background7.jpg") center center/cover no-repeat;
+    height: 550px ;
+    padding-top: 135px;
+    
+}
+.search--section--div{
+    padding-left: 70px;
+}
+
+.hero--section2--div{
+    background: url("../images/background6.jpg") center center/cover no-repeat;
+    height: 275px ;
+    padding-top: 175px;
+}
+.search--section2--div{
+    padding: auto;
+
+}
+#app > div.MuiGrid-root.MuiGrid-container.MuiGrid-direction-xs-column.css-t0zib5-MuiGrid-root{
+    position: absolute;
+    top: 360px;
+}
+#app > header{
+    z-index: 20;
+}

@@ -1,0 +1,38 @@
+.animal--card {
+  width: 242px;
+  height: 250px;
+  background-color: var(--secondary);
+}
+.animal--card--div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#app
+  > div.MuiGrid-root.MuiGrid-container.MuiGrid-direction-xs-column.css-t0zib5-MuiGrid-root
+  > div.MuiGrid-root.MuiGrid-container.MuiGrid-direction-xs-column.css-1174fko-MuiGrid-root
+  :hover {
+  background-color: aliceblue;
+}
+#pet--card--text--div {
+  position: relative;
+  top: -75px;
+  background-color: black;
+  opacity: 0.5;
+  height: 75px;
+}
+.pet--card--name {
+  text-align: center;
+  color: white;
+}
+.pet--card--text {
+  color: white;
+  text-align: center;
+}
+#like--area{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: aqua;
+}
+
